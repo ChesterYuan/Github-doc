@@ -104,3 +104,11 @@ except ZeroDivisionError as error:
 else:
     print(f"Result: {result}")
 ```
+
+
+## References
+
+- [Basic GitHub Writing](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Terraform](https://app.terraform.io/public/signup/account?product_intent=terraform)
+
+
