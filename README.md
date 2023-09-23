@@ -7,6 +7,9 @@ A good Cloud Engineer uses Codeblocks whenever possible.
 
 Because it allows others to copy and paster their code to replicate or research issues.c
 
+
+In order to creatr codeblocks, you need to use three backticks (```)
+
 RedHat Linux Command:
 
 ```
@@ -70,4 +73,34 @@ Archiving and Compression:
 tar: Create and extract tar archives.
 zip and unzip: Create and extract zip archives.
 gzip and gunzip: Compress and decompress files.
+```
+![solar-panels](https://github.com/ChesterYuan/Github-doc/assets/56418000/bd0007b1-427a-46b3-9007-203e6757c333)
+
+
+```terraform
+
+terraform init
+```
+
+> When you can, you should apply syntax hightlighting to your codelocks.
+> Codeblocks can be used for indicating errors, by adding (bash)
+
+
+
+#
+
+```bash
+# Define a function that raises an exception
+def divide(a, b):
+    if b == 0:
+        raise ZeroDivisionError("Division by zero is not allowed")
+    return a / b
+
+# Call the function with a divisor of zero to raise an error
+try:
+    result = divide(10, 0)
+except ZeroDivisionError as error:
+    print(f"An error occurred: {error}")
+else:
+    print(f"Result: {result}")
 ```
